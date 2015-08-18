@@ -22,7 +22,7 @@ var bio={
 	"skills":[
 		"JavaScript","GIS","Technical Support","Application Development"
 	],
-	"bioPic":"images/fry.jpg"
+	"bioPic":"images/my_picture.jpg"
 };
 $("#topContacts").append(HTMLmobile.replace("%data%",bio.contacts.mobile));
 $("#topContacts").append(HTMLemail.replace("%data%",bio.contacts.email));
