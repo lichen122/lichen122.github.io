@@ -107,30 +107,45 @@ var projects={
 			"description":"<p> •  Developed an Arcade Game using Object Oriented Javascript and HTML5</p>"+
 						  "<p> •  http://lichen122.github.io/ArcadeGame/</p>"
         },
+        {
+			"title":"National Crisis and Emergency Management System",
+			"dates" : "Mar 2013 - Sep 2014",
+			"image" :["images/NCEMA.png"],
+			"description":"<p> •  A project for Abu Dhabi National Emergency Management Authority, which provides the clients with the abilities to manage the emergency resources location,attributes and coordinate the response to a disaster that has occurred in Abu Dhabi.</p>"+
+						  "<p> •  Implemented 80% of web GIS functionalities in main NCEMA Portal and realized the emergency resources/incidents management system which is built on ASP.NET MVC framework using C#, javascript, HTML.</p>"
+		},
+		{
+			"title":"GEOILS(Intelligent Location Server).",
+			"dates" : "Sep 2013 - Dec 2013",
+			"image" :["images/GEOILS.png"],
+			"description":"<p> •  This project offered an integrated, asset management and tracking program that consists of three main elements:tracking devices,intelligent mapping and backend integration.</p>"+
+						  "<p> •  Implemented timezone conversion management, vehicle tracking movements display and vehicle tacking report generation.</p>"
+		},
+		{
+			"title":"J2ME Mobile Development",
+			"dates" : "Sep 2014 - Dec 2014",
+			"image" :["images/J2ME.png"],
+			"description":"<p> •  This application is being used in Africa, for the labor contractors who are still using non-smart phone to bid over a request by the residents there. The bidding result is based on a score which takes the bidding price, the reviews of that contractor and the distance of that contractor into consideration to get the best contractor for a service request.</p>"+
+						  "<p> •  This J2ME application is used to implement the bidding process by text messages in a time period. There are two sub applications in it. (open auction, seal auction): In one seal auction, the application could continuously send text message every 5 minutes (this time could be changed by any time as you want) in a time period. The message content is the same, which tells the recipients about the auction information and when the auction will end. Through this time period, recipients could participate in this auction by replying to the messages with the price they want to bid. The application will record those prices in a local file. And at the end of the auction, the app will send the last message with the winner of the auction and the price provided by winner. In one open auction, the application could continuously send text message every 5 minutes (this time could be changed by any time as you want) in a time period. But the message contents are different from time to time, since it provides the information with the current min price and the current provider who provide that price.</p>"
+		},
 		{
 			"title":"GIS Web Application for Travel Routing Analysis  (ActionScript, Flex)",
 			"dates" : "May 2012",
-			"image" :["images/project.jpg","images/default_profile_photo.png"],
+			"image" :["images/Travel.png"],
 			"description":"<p> •  Developed a web app on ArcGIS Server that could generate the optimized traveling route given points of interest.</p>"+
 						  "<p> •  Hosted New York network dataset on ArcGIS Server and implemented TSP algorithm with enumeration.</p>"
 		},{
-			"title":"MedSearch - JavaScript Project on Amazon EC2(JavaScript, HTML/CSS, php, Google Maps API)",
+			"title":"GameMonopoly Database Web Application",
 			"dates" : "Oct 2011",
-			"image" :[],
-			"description":"<p> •  Developed a search application on Amazon EC2 that supported searching, routing and geocoding of medical resources.</p>"+
-						  "<p> •  Published spatial data on ArcGIS server, queried database in PHP/MySQL and implemented GIS functionalities using JavaScript API and Google Maps API.</p>"
+			"image" :["images/monopoly.png"],
+			"description":"<p> •  Implemented a multiplayer web game in which players throw dice and buy lands to get rich.</p>"+
+						  "<p> •  Engineered animations in JavaScript, created UI in HTML/CSS, and rendered graphics in Photoshop. </p>"
 		},{
 			"title":"Hackthon Project (AngularJS, JavaScript, Postman)",
 			"dates" : "Apr 2014",
 			"image" :[],
 			"description":"<p> •  Built a website (http://www.messagelaunch.com) on Amazon EC2 that could send messages as rapid response to emergency.</p>"+
 						  "<p> •  Implemented front-end functionalities such as csv/audio file upload, data filtering and geodata display.</p>"
-		},{
-			"title":"Web Game on Google App Engine ( HTML/CSS,MySQL,jQuery,JavaScript)",
-			"dates" : "May 2012",
-			"image" :["images/project.jpg"],
-			"description":"<p> •  Implemented a multiplayer web game in which players throw dice and buy lands to get rich.</p>"+
-						  "<p> •  Engineered animations in JavaScript, created UI in HTML/CSS, and rendered graphics in Photoshop</p>"
 		}
 	]
 }
