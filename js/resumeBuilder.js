@@ -1,7 +1,7 @@
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
- 
+
 
 var formattedName = HTMLheaderName.replace("%data%","Chen Li");
 var formatedRole = HTMLheaderRole.replace("%data%","Front End Developer");
@@ -93,13 +93,20 @@ for(job in work.jobs){
 	$(".work-entry:last").append(HTMLworkLocation.replace("%data%",work.jobs[job].location));
 	$(".work-entry:last").append(HTMLworkDates.replace("%data%",work.jobs[job].dates));
 	$(".work-entry:last").append(HTMLworkDescription.replace("%data%",work.jobs[job].description));
-	
+
 }
 
 
 
 var projects={
 	"projects":[
+		{
+			"title":"Arcade Game (Javascript, HTML5)",
+			"dates" : "Aug 2015",
+			"image" :["images/arcadegame.png"],
+			"description":"<p> •  Developed an Arcade Game using Object Oriented Javascript and HTML5</p>"+
+						  "<p> •  http://lichen122.github.io/ArcadeGame/</p>"
+        },
 		{
 			"title":"GIS Web Application for Travel Routing Analysis  (ActionScript, Flex)",
 			"dates" : "May 2012",
@@ -138,7 +145,7 @@ for(project in projects.projects){
 			$(".project-entry:last").append(HTMLprojectImage.replace("%data%",projects.projects[project].image[image]));
 		}
 	}
-	
+
 }
 
 var education={
@@ -166,8 +173,8 @@ for(school in education.schools){
 	$(".education-entry:last").append(HTMLschoolDates.replace("%data%",education.schools[school].dates));
 	$(".education-entry:last").append(HTMLschoolLocation.replace("%data%",education.schools[school].location));
 	$(".education-entry:last").append(HTMLschoolMajor.replace("%data%",education.schools[school].major));
-	
-	
+
+
 }
 
 function locationizer(work){
@@ -191,8 +198,8 @@ $("#mapDiv").append(googleMap);
 
 require(["esri/map","esri/layers/GraphicsLayer", "esri/geometry/Point","esri/symbols/PictureMarkerSymbol",
 	"esri/symbols/SimpleMarkerSymbol",
-	"esri/graphic","dojo/domReady!"], 
-	function(Map,GraphicsLayer,Point,PictureMarkerSymbol,SimpleMarkerSymbol,graphic) { 
+	"esri/graphic","dojo/domReady!"],
+	function(Map,GraphicsLayer,Point,PictureMarkerSymbol,SimpleMarkerSymbol,graphic) {
   var map = new Map("map", {
     center: [-172.675567, 38.432848],
     zoom: 3,
