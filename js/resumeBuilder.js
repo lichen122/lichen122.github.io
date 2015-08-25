@@ -4,7 +4,7 @@ This is empty on purpose! Your code to build the resume will go here.
 
 
 var formattedName = HTMLheaderName.replace("%data%","Chen Li");
-var formatedRole = HTMLheaderRole.replace("%data%","Front End Developer");
+var formatedRole = HTMLheaderRole.replace("%data%","");
 $("#header").prepend(formatedRole);
 $("#header").prepend(formattedName);
 
@@ -20,7 +20,7 @@ var bio={
 	},
 	"welcomeMessage":"welcome to my page!",
 	"skills":[
-		"JavaScript","GIS","Technical Support","Application Development"
+		"GIS","JavaScript, HTML/CSS","Application Development(API/SDK)","Technical Support","Customer Service"
 	],
 	"bioPic":"images/my_picture.jpg"
 };
