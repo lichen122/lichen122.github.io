@@ -105,7 +105,14 @@ var projects={
 			"dates" : "Aug 2015",
 			"image" :["images/arcadegame.png"],
 			"description":"<p> •  Developed an Arcade Game using Object Oriented Javascript and HTML5</p>"+
-						  "<p> •  http://lichen122.github.io/ArcadeGame/</p>"
+						  "<p> <a href='http://lichen122.github.io/ArcadeGame/' target='_blank'>•  Go play!</a></p>"
+        },
+        {
+			"title":"Map Album (Javascript, HTML5, dojo, jQuery, boostrap)",
+			"dates" : "Aug 2015",
+			"image" :["images/map_album.png"],
+			"description":"<p> •  Developed an tool for easily adding image to the specified location on the map</p>"+
+						  "<p> <a href='http://lichen122.github.io/addImage/' target='_blank'>•  I want to try!</a> </p>"
         },
         {
 			"title":"National Crisis and Emergency Management System",
